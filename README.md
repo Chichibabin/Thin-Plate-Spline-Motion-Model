@@ -91,6 +91,8 @@ To compute metrics, follow instructions from [pose-evaluation](https://github.co
 - python:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python demo.py --config config/vox-256.yaml --checkpoint checkpoints/vox.pth.tar --source_image ./source.jpg --driving_video ./driving.mp4
+##for face aligned version
+python predict.py
 ```
 
 # Acknowledgments
